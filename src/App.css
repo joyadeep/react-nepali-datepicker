@@ -1,23 +1,27 @@
 .Nepali-date-picker {
-    padding: 5px;
-    border: 1px solid #ccc;
-    cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .picker-container {
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    z-index: 99999;
-    border-radius: 8px;
-    background-color: white;
-    width: 290px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 99999;
+  border-radius: 8px;
+  background-color: white;
+  width: 290px;
 }
 
 table td,
 th {
-    padding: 0.3rem;
-    padding-top: 0.32rem;
-    padding-bottom: 0.32rem;
+  padding: 0.3rem;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
 }

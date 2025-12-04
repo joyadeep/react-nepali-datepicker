@@ -1,36 +1,40 @@
 .daybutton {
-    background: none;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    box-shadow: none;
-    cursor: pointer;
+  background: none;
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 .daynormal {
-    border: none;
-    color: #7f7f7f;
+  border: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .daynormal:hover {
-    background-color: #d7d7d7;
+  background-color: #d7d7d7;
 }
 
 .daydiasbled {
-    background-color: #d7d7d7;
+  background-color: #d7d7d7;
 }
 
 .dayselected {
-    border: none;
-    background-color: #486dd3 !important;
-    box-shadow: 0 2px 3px 2px #d7d7d7;
-    color: white;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .today {
-    border-color: #486dd3 !important;
-    border-width: 2px !important;
-    background: none;
-    color: #486dd3;
+  border: none;
+  background: #eff6ff;
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 16px;
 }

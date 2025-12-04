@@ -1,27 +1,34 @@
-.datepicker-select{
-    height: 30px;
-    width: 75px;
-    border: none;
-    color: #494949;
-    border-bottom: 2px solid #d7d7d7;
-    font-size: medium;
-    outline: none;
-    text-align: center;
-    word-wrap: normal;
-    font-family: inherit;
+.datepicker-select {
+  height: 35px;
+  width: 75px;
+  border: none;
+  color: #494949;
+  font-size: medium;
+  outline: none;
+  text-align: left;
+  word-wrap: normal;
+  font-family: inherit;
+  cursor: pointer;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 7px;
 }
 
 .datepicker-select::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 8px;
+  width: 5px;
+  border-radius: 8px;
 }
 
 .datepicker-select::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 8px;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+.datepicker-select:focus {
+  /* border: 2px solid rgb(214, 214, 214);
+   */
+  outline: 2px solid rgb(214, 214, 214);
 }
 
 .datepicker-selectt::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
-    border-radius: 8px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
 }
